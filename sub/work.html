@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="KO">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+	<meta name="title" content="WITTY｜위티">
+	<meta name="type" content="Website">
+
+	<meta property="og:title" content="WITTY｜위티">
+	<meta property="og:description" content="WITTY｜위티">
+	<meta property="og:image" content="https://witty0823.cafe24.com/img/th.png">
+
+	<title>WITTY｜위티</title>
+
+	<!-- 공통 css -->
+	<link rel="stylesheet" href="../css/reset_2.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="css/about.css">
+
+	<!-- 개별 css -->
+	<link rel="stylesheet" href="css/work.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.css"/>
+	
+	<!-- 공통 JS -->
+	<script src="../js/jquery-3.6.3.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<!-- 해더 스크립트 -->
+	<script src="../js/header.js"></script>
+	
+</head>
+
+<body>
+	<!-- sitemap 시작 -->
+    <aside class="sitemap">
+        <a href="../index.html" class="sitemap__logo">
+            <img src="../img/logo.svg" alt="로고">
+        </a>
+
+        <button type="button" class="sitemap-close">
+            <img src="../img/sitemap_close.png" alt="사이트맵 닫기 버튼">
+        </button>
+
+        <ul class="nav-list nav-list--depth1">
+            <!-- 사업안내 -->
+            <li class="nav-list__item depth-1">
+                <a href="about.html" class="link">About us</a>
+            </li>
+            <!-- 하는 일 -->
+            <li class="nav-list__item depth-1">
+                <a href="work.html" class="link">Works</a>
+            </li>
+            <!-- 인사이트 -->
+            <li class="nav-list__item depth-1">
+                <a href="insight.html" class="link">Insight</a>
+            </li>
+            <!-- 상담받기 -->
+            <li class="nav-list__item depth-1">
+                <a href="#" class="link">Contact</a>
+            </li>
+        </ul>
+
+        <div class="contact-wrap type--sitemap">
+            <div class="link-list">
+                <div class="item">
+                    <a href="#" class="inner">
+                        <span class="icon icon-1">
+                            <img src="../img/project-icon.png" alt="프로젝트 문의하기 버튼">
+                        </span>
+                        <p class="txt"><span>프로젝트</span>문의하기</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="inner">
+                        <span class="icon icon-1">
+                            <img src="../img/brochure-icon.png" alt="프로젝트 문의하기 버튼">
+                        </span>
+                        <p class="txt"><span>브로슈어</span>신청하기</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- sitemap 끝 -->
+    <header id="header" class="header">
+        <div class="container header-wrap">
+            <div class="logo-box">
+                <a href="../index.html" class="logo" title="메인으로">
+                    <img src="../img/logo.svg" alt="로고">
+                </a>
+            </div>
+
+            <div class="nav__bg"></div>
+            <!-- S : navigation -->
+            <nav class="nav">
+                <ul class="nav-list nav-list--depth1">
+                    <!-- 사업안내 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="about.html" class="link">About us</a>
+                    </li>
+                    <!-- 하는 일 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="work.html" class="link">Works</a>
+                    </li>
+                    <!-- 인사이트 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="insight.html" class="link">Insight</a>
+                    </li>
+                    <!-- 상담받기 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="#" class="link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- E : navigation -->
+            <button class="nav-mobile__btn sitemap-open" type="button">
+                <div class="nav-bg"></div>
+                <span class="bars bars--1"></span>
+                <span class="bars bars--2"></span>
+                <span class="bars bars--3"></span>
+            </button>
+        </div>
+    </header>
+
+	<!-- start of :: wrap -->
+	<div id="wrap">
+		<div id="body">
+			<div class="inner-wrap">
+				<section class="main-top bg bg01 r24">
+				<div class="text-wrap">
+					<h2 class="page-title">
+						혁신기술로 <br>
+						지속가능한 미래를 <br>
+						만들어 갑니다
+					</h2>
+					<p>최적의 데이터 솔루션<i class="ico blank"></i></p>
+				</div>
+				</section>
+			</div>
+			
+			<main class="container">
+				<section class="work_wrap">
+					<section class="link_wrap">
+						<div>
+							<h2>수 많은 데이터와 클라이언트를 연결</h2>
+							<span class="sub_tit">
+								위티는 클라이언트의 비지니스를 위한 정확하고 신뢰할 수 있는 데이터 파트너로써,<br>
+								데이터 산업의 건강한 발전과 무한한 가치창출을 지향합니다.
+							</span>
+						</div>
+						<div class="link_motion_wrap">
+							<p class="txt_wrap txt_wrap-l">
+								<span class="tit">Witty Data</span>
+								<span class="txt">
+									<b>정확하고 신뢰할 수 있는 데이터</b>를 제공하여 비지니스 성과를
+									극대화하는데 도움을 주며 <b>맞춤형 데이터 솔루션</b>을 개발하고 최신 기술,
+									분석 방법을 활용하여 클라이언트에게 <b>도움이 되는 정보</b>를
+									얻을 수 있도록 지원합니다.
+								</span>
+							</p>
+							<p class="ratate_circle">
+								<span class="circle"></span>
+							</p>
+							<p class="txt_wrap txt_wrap-r">
+								<span class="tit">For Client</span>
+								<span class="txt">
+									미래 지향적인 데이터를 제공받아 <b>혁신적인 아이디어와 기술</b>로
+									공급망, 마케팅, 금융 등 다양한 산업에서 성공적인 결과를 이끌어냅니다.
+									<b>정확성, 신속성 및 효율성에 중점을 두며</b> 실시간으로 업데이트되는 최신 정보와
+									다양한 도구를 활용하여 <b>의사결정 프로세스에서 자신감</b>을 갖게 됩니다.
+								</span>
+							</p>
+						</div>
+					</section>
+					<!-- section02 -->
+					<section class="wiwork_wrapn">
+						<div class="wiwork_inner">
+							<div class="wiwork_left">
+							<h2>
+								당신의 성장을 위한<br>
+								데이터 파트너
+							</h2>
+							<span class="sub_txt">
+								항상 최신 정보를 제공하는 위티,<br>
+								저희는 당신이 필요로하는 데이터를 제공합니다.
+							</span>
+							<p class="sub_tit">
+								<span>Analysis</span>
+								<span>Database</span>
+								<span>Machine Learning</span>
+								<span>Algorithm</span>
+							</p>
+							</div>
+							<div class="wiwork_right">
+							<div class="marquee-wrap left">
+								<div class="marquee">
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img01.png);">
+										<p class="name">
+											<span class="ko">문화체육</span>
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img02.png);">
+										<p class="name">
+											<span class="ko">교육과학</span>
+
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img03.png);">
+										<p class="name">
+											<span class="ko">교통통신</span>
+	
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img04.png);">
+										<p class="name">
+											<span class="ko">경제금융</span>
+
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img05.png);">
+										<p class="name">
+											<span class="ko">건설에너지</span>
+	
+										</p>
+									</div>
+								</div>
+								<div class="marquee marquee2">
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img01.png);">
+										<p class="name">
+											<span class="ko">문화체육</span>
+
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img02.png);">
+										<p class="name">
+											<span class="ko">교육과학</span>
+		
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img03.png);">
+										<p class="name">
+											<span class="ko">교통통신</span>
+	
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img04.png);">
+										<p class="name">
+											<span class="ko">경제금육</span>
+
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img05.png);">
+										<p class="name">
+											<span class="ko">건설에너지</span>
+	
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="marquee-wrap right">
+								<div class="marquee">
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img06.png);">
+										<p class="name">
+											<span class="ko">농수산식품</span>
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img07.png);">
+										<p class="name">
+											<span class="ko">제조소비</span>
+	
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img08.png);">
+										<p class="name">
+											<span class="ko">건강의료복지</span>
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img09.png);">
+										<p class="name">
+											<span class="ko">재난안전</span>
+	
+										</p>
+									</div>
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img10.png);">
+											<p class="name">
+												<span class="ko">환경지원</span>
+											</p>
+									</div>
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img11.png);">
+											<p class="name">
+												<span class="ko">행정법률</span>
+											</p>
+									</div>
+								</div>
+								<div class="marquee marquee2">
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img06.png);">
+										<p class="name">
+											<span class="ko">농수산식품</span>
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img07.png);">
+										<p class="name">
+											<span class="ko">제조소비</span>
+	
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img08.png);">
+										<p class="name">
+											<span class="ko">건강의료복지</span>
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img09.png);">
+										<p class="name">
+											<span class="ko">재난안전</span>
+	
+										</p>
+									</div>
+
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img10.png);">
+										<p class="name">
+											<span class="ko">행정지원</span>
+										</p>
+									</div>
+									<div class="wiwork_box" style="background: url(img/work/wiwork-img11.png);">
+										<p class="name">
+											<span class="ko">행정법률</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</section>
+					<!-- section03 -->
+					<section class="process_wrap">
+						<div class="process_l">
+							<div class="tit_wrap">
+								<h2>
+									프로젝트<br>
+									진행 프로세스
+								</h2>
+								<span class="sub_tit">
+									맞춤형 데이터로<br>최적화된 결정을 도와드립니다.
+								</span>
+							</div>
+						</div>
+						<div class="process_r">
+							<ul class="process_list">
+								<li class="is-active">
+									<span class="num">01</span>
+									<div class="txtwrap">
+										<h3 class="tit">DATA 데이터</h3>
+										<span class="txt"><span>사용자들의 행동 기반으로 도출된 실제 데이터 제공</span><br>
+										위티를 통해 제공받는 데이터를 활용해 원하는 결과를 만들어보세요.</span>
+									</div>
+								</li>
+								<li>
+									<span class="num">02</span>
+									<div class="txtwrap">
+										<h3 class="tit">WEB 홈페이지 유지 및 보수</h3>
+										<span class="txt"><span>홈페이지의 지속적인 관리와 업데이트</span><br>
+										웹사이트의 기능을 최적화하고, 최신 상태로 유지하며,<br>
+										발생 가능한 기술적인 문제를 빠르게 해결합니다.</span>
+									</div>
+								</li>
+								<li>
+									<span class="num">03</span>
+									<div class="txtwrap">
+										<h3 class="tit">APP 어플 개발</h3>
+										<span class="txt"><span>앱을 설계하고 디자인하며 구현</span><br>
+											제작자와 사용자의 요구를 충족시키는<br>
+											소프트웨어 응용 프로그램을 제작하며 개발합니다.</span>
+									</div>
+								</li>
+								<li>
+									<span class="num">04</span>
+									<div class="txtwrap">
+										<h3 class="tit">PLAN 축제, 공연 기획</h3>
+										<span class="txt"><span>최상의 경험을 제공</span><br>
+										다양한 요소로 기획하여 주최자나 스폰서의 목적을<br>
+										달성하는것을 최종 목적으로 합니다.</span>
+									</div>
+								</li>
+								<li>
+									<span class="num">05</span>
+									<div class="txtwrap">
+										<h3 class="tit">광고</h3>
+										<span class="txt"><span>최적의 효율</span><br>
+											차별화된 마케팅 인사이트를 도출하고, 캠페인의 최적화를 지원합니다.</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</section>
+				
+			</main>
+		</div>
+	</div>
+	<!-- end of :: wrap -->
+
+	<script>
+		var linkMotionTop = $(".work_wrap .link_wrap").offset().top;
+		var processList = $(".work_wrap .process_list li");
+
+		$(window).scroll(function() {
+			var windowHeight = $(window).height();
+			var scrollTop = $(window).scrollTop();
+
+			//디자이너와 클라이언트를 연결 모션
+			if (scrollTop - $(window).innerHeight()* 0.5) {
+				$(".link_motion_wrap").addClass("is-active");
+			}
+			// 프로젝트 진행 프로세스 리스트
+			processList.each(function() {
+				if ($(this).offset().top <= scrollTop + windowHeight / 2) {
+					var activePrcList = $(this);
+
+					processList.not(activePrcList).removeClass("is-active");
+					activePrcList.addClass("is-active");
+				}
+			});
+		});
+
+	</script>
+
+</body>
+
+</html>
